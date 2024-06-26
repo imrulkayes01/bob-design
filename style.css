@@ -304,6 +304,7 @@
   text-decoration: underline;
   color: #a7a9be;
 }
+
 @media only screen and (max-width: 430px) {
   .hph h2 {
     font-size: 25px;
@@ -314,7 +315,12 @@
   padding-left: 2.5rem;
   font-size: 45px;
 }
-
+@media only screen and (max-width: 620px) {
+  .s-gap {
+    font-size: 30px;
+    padding-left: 0;
+  }
+}
 /* section four */
 
 .asiddiv {
@@ -351,6 +357,12 @@
   opacity: 0.8;
   font-size: 52px;
 }
+@media only screen and (max-width: 360px) {
+  .imgh1 h1 {
+    font-size: 20px !important;
+  }
+}
+
 @media only screen and (max-width: 430px) {
   .imgh1 h1 {
     font-size: 26px;
@@ -423,6 +435,11 @@
     gap: 5px;
   }
 }
+@media only screen and (max-width: 360px) {
+  .a1h1 {
+    gap: 10px;
+  }
+}
 .a1h1 a {
   text-decoration: none;
   color: white;
@@ -438,6 +455,12 @@
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 360px) {
+  .a1h1 #a {
+    font-size: 10px !important;
+    padding: 0;
+  }
+}
 .a1h1 #b {
   background: black;
   padding: 2px 8px 2px 8px;
@@ -448,12 +471,26 @@
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 360px) {
+  .a1h1 #b {
+    font-size: 10px !important;
+    padding: 0;
+  }
+}
 /* 2 */
 .heding-alink2 {
   padding-top: 1.5rem;
   color: #fff6e8;
 }
-
+@media only screen and (max-width: 360px) {
+  .h2a4 h1,
+  .h1a4 h1,
+  .h3a4 h1,
+  .h4a4 h1,
+  .h5a4 h1 {
+    font-size: 25px !important;
+  }
+}
 .heding-alink2 h1 {
   font-size: 38px;
 }
@@ -473,6 +510,11 @@
     gap: 3px;
   }
 }
+@media only screen and (max-width: 360px) {
+  .a2h1 {
+    gap: 10px !important;
+  }
+}
 .a2h1 a {
   text-decoration: none;
   color: white;
@@ -488,6 +530,15 @@
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 360px) {
+  .a2h1 #a,
+  .a3h1 #a,
+  .a4h1 #a,
+  .a5h1 #a {
+    font-size: 10px !important;
+    padding: 0;
+  }
+}
 .a2h1 #b {
   background: black;
   padding: 2px 8px 2px 8px;
@@ -496,6 +547,15 @@
   .a2h1 #b {
     font-size: none;
     font-size: 10px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .a2h1 #b,
+  .a3h1 #b,
+  .a4h1 #b,
+  .a5h1 #b {
+    font-size: 10px !important;
+    padding: 0;
   }
 }
 /* 3 */
